@@ -23,6 +23,7 @@ console.log(biggestTowns[0], biggestTowns[1], biggestTowns[2])
 
 
 let numbers = [10, 5, 8, 15, 3];
+
 let max = numbers.sort();
 console.log(max[0])
 
