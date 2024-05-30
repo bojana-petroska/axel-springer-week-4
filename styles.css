@@ -1,3 +1,25 @@
+
+:root {
+    --green: rgb(28, 141, 26);
+    --violet: rgb(142, 18, 138);
+    --textBig: 35px;
+    --textSmall: 15px;
+}
+
 h1 {
-    color: blueviolet;
+    color: var(--green);
+    font-size: var(--textBig);
+}
+
+.list {
+    color: var(--violet);
+    font-size: var(--textSmall);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    flex-direction: column;
 }

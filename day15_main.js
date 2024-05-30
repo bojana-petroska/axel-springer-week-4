@@ -19,12 +19,14 @@ function addNumbers() {
 // function addNumbers() {
 //     const display = document.createElement('div');
 //     display.className = 'display';
-//     let displayText = document.createElement('div');
 
+//     let displayText = document.createElement('div');
 //     displayText.innerText = parseInt(number1.value) + parseInt(number2.value);
+
 //     console.log(displayText);
 
-//     display.appendChild(displayText);
+//     display.append(displayText);
+//     displayResult.appendChild(displayText);
 // };
 
 buttonElement.addEventListener('click', function() {
@@ -35,7 +37,7 @@ buttonElement.addEventListener('click', function() {
 clearButton.addEventListener('click', function() {
     number1.value = "";
     number2.value = "";
-    displayResult.innerText = "display the sum here";
+    displayResult.innerText = "";
 });
 
 buttonGenerateRandomNumber.addEventListener('click', function() {
